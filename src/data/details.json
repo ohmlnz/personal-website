@@ -1,0 +1,86 @@
+[
+  {
+    "title": "TheChisel",
+    "description": "I worked for TheChisel as a Front End Developer and was in charge of maintaining and updating the website on a daily basis.",
+    "stack": "Node, Express, Ember, React, Nunjucks, CoffeeScript",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499886721/intro-video-thumbnail_tbad3s.jpg",
+    "link": "https://thechisel.com/"
+  },
+  {
+    "title": "Paris American Club",
+    "description": "I created a new website for the Paris American Club in order to better match their brand identity and include more features such as: an introductory video, upcoming events, a membership directory, an online reservation system, and dues payment facility.",
+    "stack": "WordPress, PHP, JavaScript",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499890499/pac-logo.png",
+    "link": "https://parisamericanclub.org/"
+  },
+  {
+    "title": "React Blog",
+    "description": "A fully functional blog platform, which contains a WYSIWYG editor, handles media links, includes comments, a full fledged editor system, a pagination mechanism and more to come.",
+    "stack": "React, Firebase, Redux, Surge",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814695/react-blog_l7d2op.jpg",
+    "link": "https://quick-blog.surge.sh/"
+  },
+  {
+    "title": "Alouette Communications",
+    "description": "Updated the company’s website with content creation, security checks and UX improvements",
+    "stack": "WordPress, PHP, JavaScript",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814341/alouette_qlchdg.jpg",
+    "link": "http://alouettecommunications.com"
+  },
+  {
+    "title": "Twitagram",
+    "description": "Chrome Extension displaying Instagram pictures on Twitter's feed.",
+    "stack": "JavaScript",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515816153/twitagram_jsorvp.jpg",
+    "link": "https://chrome.google.com/webstore/detail/twitagram/ddpfdbkjbnnjopghmhcfkppdgfpbblka/"
+  },
+  {
+    "title": "p5 Snake",
+    "description": "2D iconic snake game built using the p5.js library.",
+    "stack": "p5.js",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515815785/snake_dvd27l.jpg",
+    "link": "https://github.com/othmanlan/p5-snake"
+  },
+  {
+    "title": "Budgeto",
+    "description": "React Native app which goal is to help me keep track of my budget. Available on Android at the moment, will be ported to iOS at some point.",
+    "stack": "React Native, Firebase",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516261977/budgeto_react_native.jpg",
+    "link": "https://github.com/othmanlan/budgeto"
+  },
+  {
+    "title": "Tic Tac Toe",
+    "description": "World's famous Tic Tac Toe game, in JavaScript",
+    "stack": "JavaScript",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516232697/tictactoe.png",
+    "link": "#"
+  },
+  {
+    "title": "Hangman",
+    "description": "Can you guess the word?",
+    "stack": "JavaScript",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516232971/hangman.png",
+    "link": "#"
+  },
+  {
+    "title": "React Todo List",
+    "description": "Keep track of your todos, with this simple and straightforward web app.",
+    "stack": "React",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516233048/todo-list-react.png",
+    "link": "https://github.com/othmanlan/react-todo"
+  },
+  {
+    "title": "2D Collisions",
+    "description": "Collision system with health bar in a RPG-like game.",
+    "stack": "PixiJS",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516233173/rpg-collision.png",
+    "link": "#"
+  },
+  {
+    "title": "QI PSP",
+    "description": "Homebrew which determines your IQ based on your age and performance on various quizes. Also comes with a BMI test.",
+    "stack": "Lua",
+    "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516233276/qipsp.png",
+    "link": "http://qipsp.free.fr"
+  }
+]
