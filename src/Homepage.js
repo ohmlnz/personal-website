@@ -10,9 +10,9 @@ class Homepage extends Component {
   showMenu = () => {
     const menu = document.querySelector('.menu-mobile');
     const lis = menu.getElementsByTagName('li');
-    const display = this.state.display? 'hidden' : 'visible';
+    const display = this.state.display? 'none' : 'block';
 
-    Array.from(lis).forEach((e, i) => { if (i !== 0) return e.style.visibility = display; });
+    Array.from(lis).forEach((e, i) => { if (i !== 0) return e.style.display = display; });
 
     this.setState({ display: !this.state.display });
   }

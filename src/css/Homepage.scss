@@ -92,7 +92,7 @@ section h1 {
         background-color: #2C2A2A;
         opacity: 1;
         line-height: 72px;
-        visibility: hidden;
+        display: none; // ICI PD
 
         :hover {
           cursor: pointer;
@@ -437,7 +437,8 @@ section h1 {
     nav {
       .menu-mobile {
         li {
-          visibility: hidden !important;
+          //visibility: hidden !important;
+          display: none;
         }
       }
     }
@@ -454,7 +455,7 @@ section h1 {
         display: block;
 
         li:first-child {
-          visibility: visible;
+          display: block;
         }
       }
     }

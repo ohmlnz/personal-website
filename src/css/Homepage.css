@@ -66,7 +66,7 @@ section h1 {
       background-color: #2C2A2A;
       opacity: 1;
       line-height: 72px;
-      visibility: hidden; }
+      display: none; }
       #intro nav .menu-mobile li :hover {
         cursor: pointer; }
       #intro nav .menu-mobile li a {
@@ -282,7 +282,7 @@ ul li {
 @media screen and (min-width: 601px) {
   #intro
 nav .menu-mobile li {
-    visibility: hidden !important; } }
+    display: none; } }
 
 @media screen and (max-width: 600px) {
   #intro nav .menu-desktop {
@@ -290,7 +290,7 @@ nav .menu-mobile li {
   #intro nav .menu-mobile {
     display: block; }
     #intro nav .menu-mobile li:first-child {
-      visibility: visible; }
+      display: block; }
   #intro article h1 {
     font-size: 33px;
     padding: 1em 1em 0 1em; }
