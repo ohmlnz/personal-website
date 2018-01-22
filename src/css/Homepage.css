@@ -260,7 +260,24 @@ section h1 {
     height: unset; }
     #about article p {
       width: auto;
-      padding: 0 2em 0 2em; } }
+      padding: 0 2em 0 2em; }
+  #portfolio {
+    display: block;
+    height: auto;
+    padding-bottom: 1em; }
+    #portfolio header h1 {
+      padding-top: 1em; }
+    #portfolio article
+ul {
+      display: block; }
+      #portfolio article
+ul li {
+        width: 70% !important;
+        margin: auto;
+        padding: .4em; }
+    #portfolio span a {
+      width: 20%;
+      margin-bottom: 1em; } }
 
 @media screen and (min-width: 601px) {
   #intro
@@ -280,4 +297,6 @@ nav .menu-mobile li {
   #contact article p {
     font-size: 1.2em;
     padding: 0 1em 0 1em;
-    text-align: center; } }
+    text-align: center; }
+  #contact article ul a {
+    margin: 0 1em 0 1em; } }
