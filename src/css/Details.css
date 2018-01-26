@@ -10,26 +10,33 @@ h4 {
 
 .portfolio-full .wrapper {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 90%;
-  margin: auto; }
+  flex-direction: column;
+  align-items: center; }
+  .portfolio-full .wrapper .sub-wrapper {
+    display: flex; }
+    .portfolio-full .wrapper .sub-wrapper figure {
+      width: 300px; }
+      .portfolio-full .wrapper .sub-wrapper figure h3 {
+        text-align: center; }
+      .portfolio-full .wrapper .sub-wrapper figure img {
+        width: 290px;
+        height: 185px;
+        border: 1px solid white;
+        padding: 2px; }
+      .portfolio-full .wrapper .sub-wrapper figure figcaption {
+        font-size: .9em;
+        border-right: 3px solid RGBA(38, 35, 35, 0);
+        padding: 8px 0 0 8px;
+        text-align: justify; }
+        .portfolio-full .wrapper .sub-wrapper figure figcaption a {
+          color: white;
+          word-wrap: break-word;
+          text-decoration: none; }
 
-.portfolio-full figure {
-  width: 300px; }
-  .portfolio-full figure h3 {
-    text-align: center; }
-  .portfolio-full figure img {
-    width: 290px;
-    height: 185px;
-    border: 1px solid white;
-    padding: 2px; }
-  .portfolio-full figure figcaption {
-    font-size: .9em;
-    border-right: 3px solid RGBA(38, 35, 35, 0);
-    padding: 8px 0 0 8px;
-    text-align: justify; }
-    .portfolio-full figure figcaption a {
-      color: white;
-      word-wrap: break-word;
-      text-decoration: none; }
+@media screen and (max-width: 1200px) {
+  .portfolio-full .wrapper .sub-wrapper {
+    flex-wrap: wrap; }
+    .portfolio-full .wrapper .sub-wrapper figure {
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1em; } }

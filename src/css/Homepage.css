@@ -11,7 +11,7 @@ body {
   margin-top: 3em; }
 
 section {
-  height: 630px; }
+  height: 100vh; }
 
 #intro article, #about, #portfolio, #skills, #contact {
   display: flex;
@@ -80,10 +80,9 @@ section h1 {
 #intro {
   background-image: url("../images/intro.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 630px; }
+  background-repeat: no-repeat; }
   #intro article {
-    height: 630px; }
+    height: 100vh; }
     #intro article h1 {
       width: 639px;
       text-transform: uppercase;
@@ -177,7 +176,8 @@ section h1 {
     width: 7%;
     margin: auto;
     margin-top: 2em;
-    opacity: .7; }
+    opacity: .7;
+    text-shadow: 1px 1px #737373; }
     #portfolio span a:hover {
       cursor: pointer;
       opacity: 1; }

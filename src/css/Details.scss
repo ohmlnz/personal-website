@@ -14,36 +14,54 @@ h4 {
 
   .wrapper {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: auto;
+    flex-direction: column;
+    align-items: center;
+
+    .sub-wrapper {
+      display: flex;
+
+      figure {
+        width: 300px;
+
+        h3 {
+          text-align: center;
+        }
+
+        img {
+          width: 290px;
+          height: 185px;
+          border: 1px solid white;
+          padding: 2px;
+        }
+
+        figcaption {
+          font-size: .9em;
+          border-right: 3px solid RGBA(38, 35, 35, 0);
+          padding: 8px 0 0 8px;
+          text-align: justify;
+
+          a {
+            color: white;
+            word-wrap: break-word;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
+}
 
-  figure {
-    width: 300px;
-
-    h3 {
-      text-align: center;
-    }
-
-    img {
-      width: 290px;
-      height: 185px;
-      border: 1px solid white;
-      padding: 2px;
-    }
-
-    figcaption {
-      font-size: .9em;
-      border-right: 3px solid RGBA(38, 35, 35, 0);
-      padding: 8px 0 0 8px;
-      text-align: justify;
-
-      a {
-        color: white;
-        word-wrap: break-word;
-        text-decoration: none;
+@media screen and (max-width: 1200px) {
+  .portfolio-full {
+    .wrapper {
+      .sub-wrapper {
+        flex-wrap: wrap;
+        
+        figure {
+          margin-left: auto;
+          margin-right: auto;
+          padding: 1em;
+        }
       }
     }
   }

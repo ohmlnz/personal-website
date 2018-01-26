@@ -15,7 +15,7 @@ body {
 }
 
 section {
-  height: 630px;
+  height: 100vh;
 }
 
 #intro article, #about, #portfolio, #skills, #contact {
@@ -92,7 +92,7 @@ section h1 {
         background-color: #2C2A2A;
         opacity: 1;
         line-height: 72px;
-        display: none; 
+        display: none;
 
         :hover {
           cursor: pointer;
@@ -119,10 +119,9 @@ section h1 {
   background-image:url('../images/intro.jpg');
   background-size: cover;
   background-repeat:no-repeat;
-  height: 630px;
 
   article {
-    height: 630px;
+    height: 100vh;
 
     h1 {
       width: 639px;
@@ -255,6 +254,7 @@ section h1 {
       margin: auto;
       margin-top: 2em;
       opacity: .7;
+      text-shadow: 1px 1px #737373;
 
       &:hover {
         cursor: pointer;
