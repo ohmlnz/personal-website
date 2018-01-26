@@ -42,7 +42,7 @@ class Homepage extends Component {
       		 <h1>Front end developer - Digital marketing specialist</h1>
       		 <div id='buttons'>
       		 	<span><a href="mailto:othman.lanizi@gmail.com">contact</a></span>
-      		 	<span><a href='/'>Resume</a></span>
+      		 	<span><a href="https://goo.gl/jXwdwx" target="_blank" rel="noopener noreferrer">Resume</a></span>
       		 </div>
       	</article>
       </section>

@@ -1,0 +1,8 @@
+.page-not-found {
+  text-align: center;
+  margin-top: 5em;
+  font-size: 2em; }
+  .page-not-found a {
+    color: #dadada; }
+    .page-not-found a:visited {
+      color: #636161; }

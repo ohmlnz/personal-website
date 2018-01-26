@@ -5,12 +5,14 @@ import registerServiceWorker from './registerServiceWorker';
 
 import Homepage from './Homepage';
 import Details from './Details';
+import NotFound from './NotFound';
 
 const App = () => (
   <Router>
     <div>
       <Route exact path="/" component={Homepage}/>
-      <Route path="/details" component={Details}/>
+      <Route exact path="/details" component={Details}/>
+      <Route exact path="*" component={NotFound}/>
     </div>
   </Router>
 )
