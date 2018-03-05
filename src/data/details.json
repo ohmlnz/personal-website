@@ -2,11 +2,27 @@
   [
     {
     "title": "TheChisel",
-    "description": "I worked for TheChisel as a Front End Developer and was in charge of maintaining and updating the website on a daily basis.",
+    "description": "As a Front End Developer for TheChisel, I am in charge of maintaining and updating the website on a daily basis.",
     "stack": "Node, Express, Ember, React, Nunjucks, CoffeeScript",
     "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499886721/intro-video-thumbnail_tbad3s.jpg",
     "link": "https://thechisel.com/"
     },
+    {
+      "title": "React Blog",
+      "description": "A fully functional blog platform, which handles media links and includes comments, a full fledged editor system, a pagination mechanism and more to come.",
+      "stack": "React, Firebase, Redux, Surge",
+      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814695/react-blog_l7d2op.jpg",
+      "link": "https://quick-blog.surge.sh/"
+    },
+    {
+      "title": "Yes. We Agree!",
+      "description": "Powered by TheChisel, this website was developed with React to present and sell the results of our nation-wide survey.",
+      "stack": "React",
+      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1520287449/yesweagree.png",
+      "link": "https://yesweagree.com"
+    }
+  ],
+  [
     {
       "title": "Paris American Club",
       "description": "I created a new website for the Paris American Club in order to better match their brand identity and include more features such as: an introductory video, upcoming events, a membership directory, an online reservation system, and dues payment facility.",
@@ -14,15 +30,6 @@
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499890499/pac-logo.png",
       "link": "https://parisamericanclub.org/"
     },
-    {
-      "title": "React Blog",
-      "description": "A fully functional blog platform, which contains a WYSIWYG editor, handles media links, includes comments, a full fledged editor system, a pagination mechanism and more to come.",
-      "stack": "React, Firebase, Redux, Surge",
-      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814695/react-blog_l7d2op.jpg",
-      "link": "https://quick-blog.surge.sh/"
-    }
-  ],
-  [
     {
       "title": "Alouette Communications",
       "description": "Updated the company’s website with content creation, security checks and UX improvements",
@@ -36,13 +43,6 @@
       "stack": "JavaScript",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515816153/twitagram_jsorvp.jpg",
       "link": "https://chrome.google.com/webstore/detail/twitagram/ddpfdbkjbnnjopghmhcfkppdgfpbblka/"
-    },
-    {
-      "title": "p5 Snake",
-      "description": "2D iconic snake game built using the p5.js library.",
-      "stack": "p5.js",
-      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515815785/snake_dvd27l.jpg",
-      "link": "https://github.com/othmanlan/p5-snake"
     }
   ],
   [
@@ -61,11 +61,11 @@
       "link": "#"
     },
     {
-      "title": "Hangman",
-      "description": "Can you guess the word?",
-      "stack": "JavaScript",
-      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516232971/hangman.png",
-      "link": "#"
+      "title": "p5 Snake",
+      "description": "2D iconic snake game built using the p5.js library.",
+      "stack": "p5.js",
+      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515815785/snake_dvd27l.jpg",
+      "link": "https://github.com/othmanlan/p5-snake"
     }
   ],
   [
@@ -83,6 +83,15 @@
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516233173/rpg-collision.png",
       "link": "#"
     },
+    {
+      "title": "Hangman",
+      "description": "Can you guess the word?",
+      "stack": "JavaScript",
+      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516232971/hangman.png",
+      "link": "#"
+    }
+  ],
+  [
     {
       "title": "QI PSP",
       "description": "Homebrew which determines your IQ based on your age and performance on various quizes. Also comes with a BMI test.",

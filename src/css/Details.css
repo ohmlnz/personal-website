@@ -1,37 +1,47 @@
-h1 {
+.details-wrapper h1 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 5px; }
 
-h4 {
+.details-wrapper h4 {
   text-align: center;
   font-style: italic;
   margin-top: 0; }
 
-.portfolio-full .wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .portfolio-full .wrapper .sub-wrapper {
-    display: flex; }
-    .portfolio-full .wrapper .sub-wrapper figure {
-      width: 300px; }
-      .portfolio-full .wrapper .sub-wrapper figure h3 {
-        text-align: center; }
-      .portfolio-full .wrapper .sub-wrapper figure img {
-        width: 290px;
-        height: 185px;
-        border: 1px solid white;
-        padding: 2px; }
-      .portfolio-full .wrapper .sub-wrapper figure figcaption {
-        font-size: .9em;
-        border-right: 3px solid RGBA(38, 35, 35, 0);
-        padding: 8px 0 0 8px;
-        text-align: justify; }
-        .portfolio-full .wrapper .sub-wrapper figure figcaption a {
-          color: white;
-          word-wrap: break-word;
-          text-decoration: none; }
+.details-wrapper .portfolio-full {
+  height: unset !important; }
+  .details-wrapper .portfolio-full .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .details-wrapper .portfolio-full .wrapper .sub-wrapper {
+      display: flex; }
+      .details-wrapper .portfolio-full .wrapper .sub-wrapper figure {
+        width: 300px; }
+        .details-wrapper .portfolio-full .wrapper .sub-wrapper figure h3 {
+          text-align: center; }
+        .details-wrapper .portfolio-full .wrapper .sub-wrapper figure img {
+          width: 290px;
+          height: 185px;
+          border: 1px solid white;
+          padding: 2px; }
+        .details-wrapper .portfolio-full .wrapper .sub-wrapper figure figcaption {
+          font-size: .9em;
+          border-right: 3px solid RGBA(38, 35, 35, 0);
+          padding: 8px 0 0 8px;
+          text-align: justify; }
+          .details-wrapper .portfolio-full .wrapper .sub-wrapper figure figcaption a {
+            color: white;
+            word-wrap: break-word;
+            text-decoration: none; }
+
+.details-wrapper a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+  font-size: 1.2em; }
 
 @media screen and (max-width: 1200px) {
   .portfolio-full .wrapper .sub-wrapper {

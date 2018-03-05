@@ -6,7 +6,7 @@ class Details extends Component {
 
   render() {
     return (
-      <div className='wrapper'>
+      <div className='details-wrapper'>
         <h1>Details</h1>
         <h4>(Links on images)</h4>
 
@@ -29,6 +29,7 @@ class Details extends Component {
             ))}
           </div>
         </section>
+        <a href='/'>Go back</a>
       </div>
     )
   }

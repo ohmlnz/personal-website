@@ -42,7 +42,7 @@ class Homepage extends Component {
       		 <h1>Front end developer - Digital marketing specialist</h1>
       		 <div id='buttons'>
       		 	<span><a href="mailto:othman.lanizi@gmail.com">contact</a></span>
-      		 	<span><a href="https://goo.gl/jXwdwx" target="_blank" rel="noopener noreferrer">Resume</a></span>
+      		 	<span><a href="https://goo.gl/FWM8Xs" target="_blank" rel="noopener noreferrer">Resume</a></span>
       		 </div>
       	</article>
       </section>
@@ -107,7 +107,7 @@ class Homepage extends Component {
       	 	<ul>
       			<a href="mailto:othman.lanizi@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i>.</a>
       			<a href="https://linkedin.com/in/othmanlanizi" target='_blank'rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i>.</a>
-      			<a href="https://github.com/OthmanLan" target='_blank' rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i>.</a>
+      			<a href="https://github.com/othmanlan" target='_blank' rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i>.</a>
       			<a href="tel:+9148265280"><i className="fa fa-mobile" aria-hidden="true"></i>.</a>
       	 	</ul>
       	  <div id='social-media'></div>

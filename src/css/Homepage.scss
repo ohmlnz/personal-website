@@ -158,7 +158,7 @@ section h1 {
 
 /* About section */
 #about {
-  background-image:url('../images/about.jpg');
+  // background-image:url('../images/about.jpg');
   background-size: cover;
   background-repeat:no-repeat;
 
@@ -167,7 +167,7 @@ section h1 {
   }
 
   article {
-    background-color: $light_gray;
+    // background-color: $light_gray;
     margin: 0 1em 0 1em;
     padding: 1em;
 
@@ -254,7 +254,7 @@ section h1 {
       margin: auto;
       margin-top: 2em;
       opacity: .7;
-      text-shadow: 1px 1px #737373;
+      // text-shadow: 1px 1px #737373;
 
       &:hover {
         cursor: pointer;

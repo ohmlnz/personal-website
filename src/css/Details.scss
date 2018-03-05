@@ -1,53 +1,65 @@
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
+.details-wrapper {
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
 
-h4 {
-  text-align: center;
-  font-style: italic;
-  margin-top: 0;
-}
+  h4 {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+  }
 
-.portfolio-full {
+  .portfolio-full {
+    height: unset !important;
 
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .sub-wrapper {
+    .wrapper {
       display: flex;
+      flex-direction: column;
+      align-items: center;
 
-      figure {
-        width: 300px;
+      .sub-wrapper {
+        display: flex;
 
-        h3 {
-          text-align: center;
-        }
+        figure {
+          width: 300px;
 
-        img {
-          width: 290px;
-          height: 185px;
-          border: 1px solid white;
-          padding: 2px;
-        }
+          h3 {
+            text-align: center;
+          }
 
-        figcaption {
-          font-size: .9em;
-          border-right: 3px solid RGBA(38, 35, 35, 0);
-          padding: 8px 0 0 8px;
-          text-align: justify;
+          img {
+            width: 290px;
+            height: 185px;
+            border: 1px solid white;
+            padding: 2px;
+          }
 
-          a {
-            color: white;
-            word-wrap: break-word;
-            text-decoration: none;
+          figcaption {
+            font-size: .9em;
+            border-right: 3px solid RGBA(38, 35, 35, 0);
+            padding: 8px 0 0 8px;
+            text-align: justify;
+
+            a {
+              color: white;
+              word-wrap: break-word;
+              text-decoration: none;
+            }
           }
         }
       }
     }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 1em 0;
+    font-size: 1.2em;
   }
 }
 
@@ -56,7 +68,7 @@ h4 {
     .wrapper {
       .sub-wrapper {
         flex-wrap: wrap;
-        
+
         figure {
           margin-left: auto;
           margin-right: auto;
