@@ -17,12 +17,19 @@
     {
       "title": "Yes. We Agree!",
       "description": "Powered by TheChisel, this website was developed with React to present and sell the results of our nation-wide survey.",
-      "stack": "React",
+      "stack": "React, Gumroad",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1520287449/yesweagree.png",
       "link": "https://yesweagree.com"
     }
   ],
   [
+    {
+      "title": "Budgeto",
+      "description": "Web app to track ones' budget. Graphs are used to display results and they can be exported to .csv",
+      "stack": "React, Node, SQLite3",
+      "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1521929103/budgeto.png",
+      "link": "https://budgeto.surge.sh/"
+    },
     {
       "title": "Paris American Club",
       "description": "I created a new website for the Paris American Club in order to better match their brand identity and include more features such as: an introductory video, upcoming events, a membership directory, an online reservation system, and dues payment facility.",
@@ -36,18 +43,18 @@
       "stack": "WordPress, PHP, JavaScript",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814341/alouette_qlchdg.jpg",
       "link": "http://alouettecommunications.com"
-    },
+    }
+  ],
+  [
     {
       "title": "Twitagram",
       "description": "Chrome Extension displaying Instagram pictures on Twitter's feed.",
       "stack": "JavaScript",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515816153/twitagram_jsorvp.jpg",
       "link": "https://chrome.google.com/webstore/detail/twitagram/ddpfdbkjbnnjopghmhcfkppdgfpbblka/"
-    }
-  ],
-  [
+    },
     {
-      "title": "Budgeto",
+      "title": "Budgeto Mobile",
       "description": "React Native app which goal is to help me keep track of my budget. Available on Android at the moment, will be ported to iOS at some point.",
       "stack": "React Native, Firebase",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516261977/budgeto_react_native.jpg",
@@ -59,16 +66,16 @@
       "stack": "JavaScript",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516232697/tictactoe.png",
       "link": "#"
-    },
+    }
+  ],
+  [
     {
       "title": "p5 Snake",
       "description": "2D iconic snake game built using the p5.js library.",
       "stack": "p5.js",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515815785/snake_dvd27l.jpg",
       "link": "https://github.com/othmanlan/p5-snake"
-    }
-  ],
-  [
+    },
     {
       "title": "React Todo List",
       "description": "Keep track of your todos, with this simple and straightforward web app.",
@@ -82,16 +89,16 @@
       "stack": "PixiJS",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516233173/rpg-collision.png",
       "link": "#"
-    },
+    }
+  ],
+  [
     {
       "title": "Hangman",
       "description": "Can you guess the word?",
       "stack": "JavaScript",
       "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1516232971/hangman.png",
       "link": "#"
-    }
-  ],
-  [
+    },
     {
       "title": "QI PSP",
       "description": "Homebrew which determines your IQ based on your age and performance on various quizes. Also comes with a BMI test.",

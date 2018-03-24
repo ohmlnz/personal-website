@@ -1,5 +1,5 @@
 [
 	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1499886721/intro-video-thumbnail_tbad3s.jpg", "href": "https://thechisel.com", "caption": "Express, Ember, React, CoffeeScript" },
-	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814695/react-blog_l7d2op.jpg", "href": "https://quick-blog.surge.sh/", "caption": "React, Firebase" },
+	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1515814695/react-blog_l7d2op.jpg", "href": "https://quick-blog.surge.sh/", "caption": "React, Redux, Firebase" },
 	{ "image": "https://res.cloudinary.com/deby8qtea/image/upload/v1520287449/yesweagree.png", "href": "https://yesweagree.com/", "caption": "React" }
 ]
